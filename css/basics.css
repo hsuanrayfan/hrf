@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+/*整體設定*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Noto Sans TC', serif;
+}
+
+
+/*Section設定*/
+
+section {
+    width: 100%;
+}
+
+
+/*Container設定*/
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+
+/*文章表格的文字設定*/
+
+p,
+table {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+/*h1設定*/
+
+h1 {
+    margin-bottom: 1vh;
+}
+
+
+/*連結設定*/
+
+a {
+    text-decoration: none;
+}
+
+
+/*清除設定*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
